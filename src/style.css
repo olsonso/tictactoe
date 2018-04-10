@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+}
+
+.grid, .panel {
+    padding-top: 20px;
+    width: 360px;
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.cell {
+    display: inline-block;
+    float: left;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cell:nth-child(3n+1) {
+    clear: left;
+}
