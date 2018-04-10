@@ -1,4 +1,4 @@
-import { newMove, resetGame } from '../Actions/game';
+import { newMove, newGame } from '../Actions/game';
 import { connect } from "react-redux";
 import GameBoard from './gameBoard';
 
